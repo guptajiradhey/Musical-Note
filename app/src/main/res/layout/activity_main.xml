@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/a_key"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#EEEC1111"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:onClick="akey" />
+    <Button
+        android:id="@+id/bkey"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#00ff00"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="bkey" />
+
+    <Button
+        android:id="@+id/ckey"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#0000ff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="ckey" />
+    <Button
+        android:id="@+id/dkey"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background=" #f1c40f"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="dkey" />
+    <Button
+        android:id="@+id/ekey"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background=" #117a65 "
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="ekey" />
+    <Button
+        android:id="@+id/fkey"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background=" #283747 "
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="fkey" />
+    <Button
+        android:id="@+id/akey"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background=" #7d3c98 "
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:onClick="akey" />
+
+
+
+</LinearLayout>
